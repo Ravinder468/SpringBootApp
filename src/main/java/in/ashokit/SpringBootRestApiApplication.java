@@ -11,7 +11,9 @@ public class SpringBootRestApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootRestApiApplication.class, args);
-		System.out.println( "Hello World!" );  
+		System.out.println( "Hello World!" );
+     //	changes for his-134
+	 	System.out.println( "Hai World!" );
 	}
 
 	@GetMapping("/")
